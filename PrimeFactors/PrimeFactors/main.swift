@@ -10,12 +10,7 @@ import Foundation
 print("Enter the number to calculate the Prime Factors")
 if let number = readLine(){
     if let number = Int(number){
-        print("Factors of \(number) are :")
-        for index in 2..<number{
-            if number % index == 0{
-                print(index)
-            }
-        }
+        prime(number:number)
     }else{
         print("Enter an Integer value")
     }

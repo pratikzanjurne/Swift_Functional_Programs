@@ -1,11 +1,15 @@
-//
-//  main.swift
-//  Distance
-//
-//  Created by BridgeLabz Solutions LLP  on 7/12/18.
-//  Copyright © 2018 BridgeLabz Solutions LLP . All rights reserved.
-//
 
+/******************************************************************************
+ *  Compilation:  swift -d bin class.swift
+ *  Execution:    swift -cp bin com.bridgelabz.util.PrimeChecker n
+ *
+ *  Purpose: Print 2D array.
+ *
+ *  @author  Pratik Zanjurne
+ *  @version 4.0
+ *  @since   12-07-2018
+ *
+ ******************************************************************************/
 import Foundation
 print("Enter the value of (x,y) :")
 print("Enter the value of x : ")
@@ -14,10 +18,7 @@ if let x = readLine(){
         print("Enter the value of y : ")
         if let y = readLine(){
             if let y = Int(y){
-                var a:Int = x * x
-                var b:Int = y * y
-                var distance:Double = sqrt(Double(a + b))
-                print("The distance from origin to points (\(x),\(y)) is \(distance)")
+                distance(a: x , b:y)
             }
             else{
                 print("Enter the integer value")

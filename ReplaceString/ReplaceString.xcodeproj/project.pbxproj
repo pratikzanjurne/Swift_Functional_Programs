@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A000B5020F7151500F4DEC2 /* FlipCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A000B4F20F7151500F4DEC2 /* FlipCoin.swift */; };
 		0AB5272420F6003500BBDD79 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5272320F6003500BBDD79 /* main.swift */; };
-		0AB5272B20F6373200BBDD79 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5272A20F6373200BBDD79 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A000B4F20F7151500F4DEC2 /* FlipCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCoin.swift; sourceTree = "<group>"; };
 		0AB5272020F6003500BBDD79 /* ReplaceString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReplaceString; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB5272320F6003500BBDD79 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		0AB5272A20F6373200BBDD79 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,19 +38,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A000B4E20F714DE00F4DEC2 /* FlipCoin */ = {
-			isa = PBXGroup;
-			children = (
-				0A000B4F20F7151500F4DEC2 /* FlipCoin.swift */,
-				0AB5272320F6003500BBDD79 /* main.swift */,
-			);
-			path = FlipCoin;
-			sourceTree = "<group>";
-		};
 		0AB5271720F6003500BBDD79 = {
 			isa = PBXGroup;
 			children = (
-				0A000B4E20F714DE00F4DEC2 /* FlipCoin */,
 				0AB5272220F6003500BBDD79 /* ReplaceString */,
 				0AB5272120F6003500BBDD79 /* Products */,
 			);
@@ -71,7 +57,7 @@
 		0AB5272220F6003500BBDD79 /* ReplaceString */ = {
 			isa = PBXGroup;
 			children = (
-				0AB5272A20F6373200BBDD79 /* User.swift */,
+				0AB5272320F6003500BBDD79 /* main.swift */,
 			);
 			path = ReplaceString;
 			sourceTree = "<group>";
@@ -134,9 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AB5272B20F6373200BBDD79 /* User.swift in Sources */,
 				0AB5272420F6003500BBDD79 /* main.swift in Sources */,
-				0A000B5020F7151500F4DEC2 /* FlipCoin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
